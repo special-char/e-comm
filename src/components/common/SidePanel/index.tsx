@@ -7,7 +7,7 @@ import clsx from "clsx";
 
 type Props = {
 	children: React.ReactNode;
-	side: "left" | "right";
+	side: "left" | "right" | "top" | "bottom";
 };
 
 const SidePanel = ({ children, side = "left" }: Props) => {
@@ -24,15 +24,19 @@ const SidePanel = ({ children, side = "left" }: Props) => {
 			<div className="fixed inset-0 overflow-hidden">
 				<div className="absolute inset-0 overflow-hidden">
 					<div
-						className={clsx(
-							"pointer-events-none fixed inset-y-0  flex max-w-full",
-							{
-								"left-0 pr-10": side === "left",
-								"right-0 pl-10": side === "right",
-							}
-						)}
+						className={clsx("pointer-events-none fixed flex", {
+							"inset-y-0 left-0 pr-10 max-w-full": side === "left",
+							"inset-y-0 right-0 pl-10 max-w-full": side === "right",
+							"inset-x-0 top-0 pb-10 max-h-full": side === "top",
+							"inset-x-0 bottom-0 pt-10 max-h-full": side === "bottom",
+						})}
 					>
-						<Dialog.Panel className="pointer-events-auto w-screen max-w-md">
+						<Dialog.Panel
+							className={clsx("pointer-events-auto w-screen ", {
+								"max-w-md": ["left", "right"].includes(side),
+								"max-h-max": ["top", "bottom"].includes(side),
+							})}
+						>
 							<div className="flex flex-col bg-white h-screen shadow-xl overflow-y-auto px-4 py-6 sm:px-6">
 								<div className="flex items-start justify-between">
 									<Dialog.Title className="text-lg font-medium text-gray-900">
