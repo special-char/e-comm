@@ -11,7 +11,7 @@ import Button from "@/components/common/Button";
 const ProductModal = ({ data }: ProductCardType) => {
 	return (
 		<Modal>
-			<div className="grid w-full grid-cols-1 sm:grid-cols-2 rounded-md">
+			<div className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 rounded-md">
 				<div className="relative w-full aspect-square">
 					<Image
 						src={data.productThumbnail.url}
