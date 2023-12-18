@@ -1,13 +1,14 @@
-import Modal from "@/components/common/modal";
+import LoginForm from "@/components/auth/login";
+import Modal from "@/components/common/Modal";
 
 type Props = {};
 
 const Login = (props: Props) => {
-  return (
-    <Modal>
-      <div>Login Page</div>
-    </Modal>
-  );
+	return (
+		<Modal>
+			<LoginForm />
+		</Modal>
+	);
 };
 
 export default Login;
