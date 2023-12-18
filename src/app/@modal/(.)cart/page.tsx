@@ -1,15 +1,14 @@
 import Button from "@/components/common/Button";
-import SidePanel from "@/components/common/SidePanel";
-import Image from "next/image";
 import { products } from "@/lib/data";
 import CartItem from "@/components/CartItem";
+import SidePanel from "@/components/common/SidePanel";
 
 type Props = {};
 
 const Cart = (props: Props) => {
 	return (
 		<SidePanel side="right">
-			<div className="flex h-full flex-col overflow-y-scroll no-scrollbar">
+			<div className="flex flex-col overflow-y-scroll no-scrollbar">
 				<div className="flow-root overflow-hidden overflow-y-auto flex-1 no-scrollbar">
 					<ul role="list" className="divide-y divide-gray">
 						{products &&
