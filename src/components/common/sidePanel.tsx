@@ -1,7 +1,7 @@
 "use client";
 import { Dialog } from "@headlessui/react";
 import { useRouter } from "next/navigation";
-import { XMarkIcon } from "@heroicons/react/24/outline";
+import XMarkIcon from "@/public/icons/cencel.svg";
 import clsx from 'clsx'
 
 type Props = {
