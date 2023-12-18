@@ -1,5 +1,4 @@
 import Link from "next/link";
-import SignInWith from "./SignInWith";
 import Input from "../common/formElements/Input";
 import SubmitButton from "../common/formElements/SubmitButton";
 
@@ -49,16 +48,6 @@ const LoginForm = (props: Props) => {
 						Login
 					</SubmitButton>
 				</form>
-				{/* <div className="flex items-center">
-					<span className="flex-1">
-						<hr />
-					</span>
-					<p className="text-subtitle2 px-4">Or Login with</p>
-					<span className="flex-1">
-						<hr />
-					</span>
-				</div>
-				<SignInWith /> */}
 			</div>
 		</div>
 	);

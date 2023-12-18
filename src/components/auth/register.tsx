@@ -56,16 +56,6 @@ const RegisterForm = (props: Props) => {
 						Sign Up
 					</SubmitButton>
 				</form>
-				{/* <div className="flex items-center">
-					<span className="flex-1">
-						<hr />
-					</span>
-					<p className="text-subtitle2 px-4">Or SignUp with</p>
-					<span className="flex-1">
-						<hr />
-					</span>
-				</div>
-				<SignInWith /> */}
 			</div>
 		</div>
 	);
