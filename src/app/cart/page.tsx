@@ -1,11 +1,6 @@
-import CartItem from "@/components/CartItem";
 import CartTotals from "@/components/CartTotals";
 import CouponForm from "@/components/CouponForm";
-import Button from "@/components/common/Button";
-import Input from "@/components/common/formElements/Input";
-import SubmitButton from "@/components/common/formElements/SubmitButton";
 import CartItemList from "@/containers/CartItemList";
-import { products } from "@/lib/data";
 
 type Props = {};
 
