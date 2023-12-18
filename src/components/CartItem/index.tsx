@@ -6,8 +6,8 @@ import CounterBtn from "../products/CounterBtn";
 
 const CartItem = ({ data }: ProductCardType) => {
   return (
-    <li className="grid grid-cols-[20%_1fr] max-sm:grid-cols-[40%_1fr] py-2 gap-4">
-      <div className="overflow-hidden rounded-md border max-h-[130px] relative border-gray/30 aspect-square">
+    <li className="grid grid-cols-[25%_1fr] max-sm:grid-cols-[40%_1fr] py-2 gap-4">
+      <div className="overflow-hidden rounded-md border max-w-[150px] relative border-gray/30 aspect-square">
         <Image
           src={data.productThumbnail.url}
           alt={data.productName}
