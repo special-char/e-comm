@@ -10,9 +10,8 @@ const ProductDetails = ({ data }: ProductCardType) => {
   return (
     <div className="flex flex-col justify-between gap-4">
       <h3 className="font-bold max-md:hidden">{data.productName}</h3>
-      <p className="text-gray">{data.productDescription}</p>
       <Price price={data.price} />
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-2">
         <div className="flex">
           {[0, 1, 2, 3, 4].map((rating) => (
             <StarIcon
@@ -25,11 +24,14 @@ const ProductDetails = ({ data }: ProductCardType) => {
             />
           ))}
         </div>
-
         <p className="text-gray">{data.reviewCount} reviews</p>
       </div>
-
       <AddToCartBtn />
+      <p className="text-gray text-caption1">{data.productDescription}</p>
+      <p className="text-gray text-caption1">Category: {data.category}</p>
+      <p className="text-gray text-caption1">Weight: {data.weight}</p>
+      <p className="text-gray text-caption1">Ingredients: {data.ingredients}</p>
+      <p className="text-gray text-caption1">{data.usage}</p>
     </div>
   );
 };
