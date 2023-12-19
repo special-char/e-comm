@@ -13,6 +13,7 @@ const ProductCard = ({ data }: ProductCardType) => {
 						alt={data.productName}
 						fill
 						style={{ objectFit: "contain" }}
+						priority={true}
 					/>
 				</div>
 				<div className={Styles.content}>

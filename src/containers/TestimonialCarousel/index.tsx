@@ -16,7 +16,7 @@ type Props = {};
 const TestimonialCarousel = (props: Props) => {
 	return (
 		<section>
-			<h4 className={styles.heading}>{testimonialData.heading}</h4>
+			<h5 className={styles.heading}>{testimonialData.heading}</h5>
 			<div className="relative">
 				<Swiper
 					spaceBetween={50}

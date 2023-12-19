@@ -672,7 +672,6 @@ export const contactDetails = [
 //-----------------------------CART-------------------------------------//
 
 export const cartPageBanner = {
-	backgroundBannerImage: "",
 	heading: "Cart",
 };
 
