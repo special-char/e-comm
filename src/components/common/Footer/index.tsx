@@ -12,13 +12,18 @@ const Footer = (props: Props) => {
 		<div className={styles.footerWrapper}>
 			<div className={styles.footerImageContainer}>
 				<div className={styles.footerImageWrapper}>
-					<Image fill src={footerData.footerImage} alt="footer image" />
+					<Image
+						fill
+						src={footerData.footerImage}
+						alt="footer image"
+						className="object-contain"
+					/>
 				</div>
 			</div>
 			{/* newsletter */}
 			<NewsLetter />
 			<footer className={styles.footer}>
-				<h4 className={styles.heading}>{footerData.heading}</h4>
+				<p className={styles.heading}>{footerData.heading}</p>
 				<div className={styles.footerDataWrapper}>
 					<div className={styles.descriptionWrapper}>
 						<p className={styles.description}>{footerData.description}</p>

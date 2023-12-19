@@ -9,7 +9,7 @@
 		@apply pt-10 pb-20 flex flex-col gap-4;
 
 		& > .heading {
-			@apply text-green font-semibold;
+			@apply text-green font-semibold text-heading4;
 		}
 
 		& > .footerDataWrapper {

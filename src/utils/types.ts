@@ -30,6 +30,13 @@ export type BannerPropsType = {
     actionBtn1: string;
     actionBtn2: string;
   };
+  data: {
+    backgroundBannerImage?: string;
+    heading: string;
+    description?: string;
+    actionBtn1?: string;
+    actionBtn2?: string;
+  };
 };
 
 export type testimonialCardType = {
