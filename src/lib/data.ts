@@ -363,28 +363,23 @@ Make in india
     `,
 		howToUse: `Apply cleanser and gently massage into skin barrier.
     Wash with normal water.`,
-		productDescription: `Power Glutathione | Reduce hyperpigmentation | Pore minimizer | Deep Hydration |Be Beautiful | Bea You
+		productDescription: `**Power Glutathione | Reduce hyperpigmentation | Pore minimizer | Deep Hydration |Be Beautiful | Bea You**
 
-      Unleash your inner radiance with Bea You Gluta Radiance moisturiser.The powerhouse of hydration with vitamin A,C, E. IThis gives your skin a replenished and dewy appearance, It also leaves your skin feeling soft and supple throughout the day.
-      
-      Defend against 5 sign of Skin sensitivity: Weakened free,Dryness,Roughness,Irritaton,roughness,Tightness
-      
-      Paraben Sulphate free
-      Cruelty free
-      Make in india
-      
-      Key point: 
-      Glutathione 2%, Alpha Arbutin 0.2%, Niacinamide 0.2%, Hyaluronic Acid 0.2%, Kojic Acid 1%, with Vitamin A,C,E   
-      vitamin b3: prevent water loss and retain skin's moisture content. It's also known to increase keratin.  
-      Vitamin b5 : it helps to boost the production of glutathione in our skin. it has anti-inflammatory properties that soothe irritated and dry skin
-      
-      * Image and actual product may very
-      
-      STORAGE: Store in a cool place. Keep away from direct sun light.
-      WARNING: Do not refrigerate. Replace the cap tightly after use.
-      `,
+Unleash your inner radiance with Bea You Gluta Radiance moisturiser. Get this moisturiser to forms a protective barrier, sealing in the natural moisture produced by your skin. The powerhouse of Niacinamide, Hyaluronic acid, Glutathione & vitamin A,C, E. That work together to smooth out rough patches, resulting in a velvety soft complexion and dewy appearance.  
+	
+Defend against 5 sign of Skin sensitivity: Weakened free, Dryness, Roughness, Irritaton, roughness, Tightness  
+	
+Paraben Sulphate free  
+Cruelty free  
+Make in india  
+			
+*Key point:* Glutathione 2%, Alpha Arbutin 0.2%, Niacinamide 0.2%, Hyaluronic Acid 0.2%, Kojic Acid 1%, with Vitamin A, C, E  
+vitamin b3: prevent water loss and retain skin's moisture content. It's also known to increase keratin.  
+Vitamin b5 : it helps to boost the production of glutathione in our skin. it has anti-inflammatory properties that soothe irritated and dry skin`,
 		reviewCount: 55,
 		rating: 3,
+		additionalInfo: `**Image and actual product may very**
+**STORAGE:** Store in a cool place. Keep away from direct sun light. WARNING: Do not refrigerate. Replace the cap tightly after use.`,
 	},
 	{
 		id: 3,

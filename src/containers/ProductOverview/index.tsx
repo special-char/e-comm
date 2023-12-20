@@ -18,7 +18,7 @@ const ProductOverview = ({ handle }: ProductOverviewProps) => {
 
 	return (
 		<>
-			<section className="relative sm:mt-0 mt-4 grid lg:grid-cols-2 items-start grid-cols-1 flex-1 gap-5 lg:gap-20">
+			<section className="relative sm:mt-0 mt-4 grid md:grid-cols-2 items-start grid-cols-1 flex-1 gap-5 lg:gap-20">
 				<div>
 					<h3 className="font-bold md:hidden mb-4">
 						{productDetails.productName}
