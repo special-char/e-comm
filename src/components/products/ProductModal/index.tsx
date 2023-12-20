@@ -3,9 +3,6 @@ import { ProductCardType } from "@/utils/types";
 import AddToCartBtn from "../AddToCartBtn";
 import Modal from "@/components/common/Modal";
 import Rating from "../Rating";
-import { usePathname, useRouter } from "next/navigation";
-import { revalidatePath } from "next/cache";
-import Link from "next/link";
 import Button from "@/components/common/Button";
 import Price from "@/components/Price";
 
