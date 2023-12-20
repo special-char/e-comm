@@ -9,10 +9,8 @@ const ServiceCard = ({ data }: ServiceCardType) => {
 			<div className={style.icon}>
 				<Image src={data.icon} alt={data.heading} fill />
 			</div>
-			<div className={style.serviceDetail}>
-				<p>{data.heading}</p>
-				<p className={style.serviceDescription}>{data.serviceDescription}</p>
-			</div>
+			<p>{data.heading}</p>
+			<p className={style.serviceDescription}>{data.serviceDescription}</p>
 		</div>
 	);
 };
