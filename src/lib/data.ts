@@ -310,27 +310,22 @@ export const products = [
 		ingredients: `Cucumber Extract, Lemon Extract, Rosemary Extract, Glycolic Acid, Lactic Acid, Sodium Hyaluronate, Niacinamide, L- Argenine, Licorice Extract, Alpha Arbutin, Berberis Extract, Propylene Glycol.
     Pluethylene Glycol 400, Glycerin, Edta, Fragrance, Triethanol Amine, Phenoxyethanol, Ethylhexylglycerin & Aqua 
     DIRECTION FOR USE: Put a pea size amount of Fair-Wish Under Eye Gel on the Tip of your ring finger & apply small dots under the eye & message gently. Be Careful & make sure you are not getting close to your eyelash line.`,
-		usage: `Directions: Apply cleanser and gently massage into skin barrier.
+		howToUse: `Apply cleanser and gently massage into skin barrier.
     Wash with normal water.`,
-		productDescription: `Feel Refresh | BE Nourished| Be Beautiful | Bea You
+		productDescription: `**Feel Refresh | BE Nourished| Be Beautiful | Bea You**
 
-    Get cleansed, soft & hydrated skin in just 40 seconds* with Bea You Face Cleanser. It gently yet effectively cleanses skin to remove dirt, oil and other impurities without making skin dry.  Adding it in your routine will minimize the effects of environmental stressors on the skin, leaving you with cleanand soft skin,.
-    
-    Defend against 5 sign of Skin sensitivity: Weakened free,Dryness,Roughness,Irritaton,roughness,Tightness
-    
-    Paraben Sulphate free
-    Cruelty free
-    Make in india
-    
-    Key point: 
-    Hydrating Glycerin, Vitamin B3 & B5, Non foaming formula
-    vitamin b3: prevent water loss and retain skin's moisture content. It's also known to increase keratin.  
-    Vitamin b5 : it helps to boost the production of glutathione in our skin. it has anti-inflammatory properties that soothe irritated and dry skin
-    
-    * Image and actual product may very
-    
-    STORAGE: Store in a cool place. Keep away from direct sun light.
-    WARNING: Do not refrigerate. Replace the cap tightly after use.`,
+Get cleansed, soft & hydrated skin in just 40 seconds* with Bea You Face Cleanser. It gently yet effectively cleanses skin to remove dirt, oil and other impurities without making skin dry. Adding it in your routine will minimize the effects of environmental stressors on the skin, leaving you with cleanand soft skin. 
+		
+Defend against 5 sign of Skin sensitivity: Weakened free, Dryness, Roughness, Irritaton, roughness, Tightness 
+		
+Paraben Sulphate free 
+Cruelty free 
+Make in india 
+		
+**Key point:** Hydrating Glycerin, Vitamin B3 & B5, Non foaming formula vitamin b3: prevent water loss and retain skin's moisture content. It's also known to increase keratin. Vitamin b5 : it helps to boost the production of glutathione in our skin. it has anti-inflammatory properties that soothe irritated and dry skin`,
+		additionalInfo: `**Image and actual product may very**
+		
+		**STORAGE:** Store in a cool place. Keep away from direct sun light. WARNING: Do not refrigerate. Replace the cap tightly after use.`,
 		reviewCount: 55,
 		rating: 3,
 	},
@@ -366,7 +361,7 @@ export const products = [
     Pluethylene Glycol 400, Glycerin, Edta, Fragrance, Triethanol Amine, Phenoxyethanol, Ethylhexylglycerin & Aqua 
     DIRECTION FOR USE: Put a pea size amount of Fair-Wish Under Eye Gel on the Tip of your ring finger & apply small dots under the eye & message gently. Be Careful & make sure you are not getting close to your eyelash line.
     `,
-		usage: `Directions: Apply cleanser and gently massage into skin barrier.
+		howToUse: `Apply cleanser and gently massage into skin barrier.
     Wash with normal water.`,
 		productDescription: `Power Glutathione | Reduce hyperpigmentation | Pore minimizer | Deep Hydration |Be Beautiful | Bea You
 
@@ -420,7 +415,7 @@ export const products = [
 		weight: "125 Ml",
 		category: "Skin-Face",
 		ingredients: "",
-		usage: "",
+		howToUse: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
@@ -455,7 +450,7 @@ export const products = [
 		weight: "125 Ml",
 		category: "Skin-Face",
 		ingredients: "",
-		usage: "",
+		howToUse: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
@@ -490,7 +485,7 @@ export const products = [
 		weight: "125 Ml",
 		category: "Skin-Face",
 		ingredients: "",
-		usage: "",
+		howToUse: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
@@ -525,7 +520,7 @@ export const products = [
 		weight: "125 Ml",
 		category: "Skin-Face",
 		ingredients: "",
-		usage: "",
+		howToUse: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
@@ -560,7 +555,7 @@ export const products = [
 		weight: "125 Ml",
 		category: "Skin-Face",
 		ingredients: "",
-		usage: "",
+		howToUse: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
@@ -595,7 +590,7 @@ export const products = [
 		weight: "125 Ml",
 		category: "Skin-Face",
 		ingredients: "",
-		usage: "",
+		howToUse: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
@@ -630,7 +625,7 @@ export const products = [
 		weight: "125 Ml",
 		category: "Skin-Face",
 		ingredients: "",
-		usage: "",
+		howToUse: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
