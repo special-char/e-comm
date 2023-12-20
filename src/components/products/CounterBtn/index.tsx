@@ -28,7 +28,7 @@ const CounterBtn = (props: Props) => {
         color="green"
         type="button"
         onClick={decrement}
-        className={"!px-0 !py-0"}
+        // className={"!px-0 !py-0"}
       >
         <MinusIcon className="w-4" />
       </Button>

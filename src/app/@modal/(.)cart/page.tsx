@@ -2,6 +2,7 @@ import Button from "@/components/common/Button";
 import { products } from "@/lib/data";
 import CartItem from "@/components/CartItem";
 import SidePanel from "@/components/common/SidePanel";
+import CartItemList from "@/containers/CartItemList";
 
 type Props = {};
 
@@ -9,11 +10,12 @@ const Cart = (props: Props) => {
   return (
     <SidePanel side="right">
       <div className="flex flex-col overflow-y-scroll no-scrollbar">
-        <div className="flow-root overflow-hidden overflow-y-auto flex-1 no-scrollbar">
-          <ul role="list" className="divide-y divide-gray">
-            {products &&
-              products.map((item) => <CartItem key={item.id} data={item} />)}
-          </ul>
+        <div className="flow-root overflow-hidden overflow-y-auto flex-1 no-scrollbar py-2">
+          {/* <ul role="list" className="divide-y divide-gray"> */}
+          {/* {products &&
+              products.map((item) => <CartItem key={item.id} data={item} />)} */}
+          {/* </ul> */}
+          <CartItemList />
         </div>
 
         <div className="border-t border-gray/30 flex flex-col pt-2 gap-4">
