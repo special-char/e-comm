@@ -16,7 +16,12 @@ const ProductReviewCard = ({ data }: Props) => {
 		<div className="flex flex-col gap-4 rounded-xl bg-white p-[4%]">
 			<div className="flex gap-4 items-center">
 				<div className="w-[20%] max-w-[75px] rounded-full overflow-hidden relative aspect-square">
-					<Image src={data.image} alt="person image" fill></Image>
+					<Image
+						src={data.image}
+						alt="person image"
+						fill
+						className="object-contain"
+					></Image>
 				</div>
 				<div className="flex-1 flex sm:items-center max-sm:flex-col sm:gap-6 flex-wrap">
 					<h6 className="text-body2 mb-0">{data.name}</h6>
