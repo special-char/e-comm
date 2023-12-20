@@ -1,5 +1,5 @@
 .gridSection {
-	@apply grid md:grid-cols-[40%_1fr] bg-green grid-cols-1 items-center select-none min-h-[20vw];
+	@apply grid md:grid-cols-[40%_1fr] bg-green grid-cols-1 gap-4 items-center select-none min-h-[20vw];
 	& > .contentWrapper {
 		@apply flex flex-col gap-4;
 
@@ -10,7 +10,7 @@
 				@apply text-white  font-bold;
 			}
 			& > .description {
-				@apply text-white text-opacity-30;
+				@apply text-white text-opacity-30 text-caption1;
 			}
 		}
 		& > .bannerButtons {
