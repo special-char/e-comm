@@ -23,7 +23,9 @@ const ProductModal = ({ data }: ProductCardType) => {
         </div>
         <div className="flex flex-col justify-between gap-4">
           <h3 className="font-bold">{data.productName}</h3>
-          <p className="text-gray">{data.productDescription}</p>
+          <p className="text-gray line-clamp-3 text-caption1">
+            {data.productDescription}
+          </p>
           <Price price={data.price} />
 
           <Rating rating={data.rating} reviewCount={data.reviewCount} />

@@ -1,56 +1,58 @@
-import Link from "next/link";
 import Input from "../common/formElements/Input";
 import SubmitButton from "../common/formElements/SubmitButton";
+import Button from "../common/Button";
+import Link from "next/link";
 
 type Props = {};
 
 const LoginForm = (props: Props) => {
-  async function login(formData: FormData) {
-    "use server";
+	async function generateOtp(formData: FormData) {
+		"use server";
 
-    const rawFormData = {
-      email: formData.get("email"),
-      password: formData.get("password"),
-    };
+		const rawFormData = {
+			email: formData.get("phone"),
+		};
 
-    console.log("formdata", rawFormData);
+		console.log("formdata", rawFormData);
+		// todo: generate otp
+		console.log("demo otp: ", 1234);
 
-    // mutate data
-    // revalidate cache
-  }
+		// mutate data
+		// revalidate cache
+	}
 
-  return (
-    <div className="flex flex-col w-full items-center gap-4">
-      <h4>Login</h4>
-      <div className="flex flex-col gap-2">
-        <div className="flex gap-2 items-center">
-          <p className="text-subtitle2">Don&apos;t have an account ?</p>
-          <span>
-            <Link className="text-blue-500" scroll={false} href={"/register"}>
-              Sign up
-            </Link>
-          </span>
-        </div>
-        <form action={login} className="flex flex-col gap-6 max-w-md">
-          <Input
-            name="email"
-            placeholder="Enter your email"
-            type="email"
-            label="Email"
-          />
-          <Input name="password" placeholder="Password" label="Password" />
-          <SubmitButton
-            variant="fill"
-            color="green"
-            className="!rounded-xl"
-            type="submit"
-          >
-            Login
-          </SubmitButton>
-        </form>
-      </div>
-    </div>
-  );
+	return (
+		<div className="flex flex-col w-full gap-8 max-w-md mx-auto py-8">
+			<h4>OTP Varification</h4>
+			<p>
+				We will send you a <span className="font-bold">One Time Password</span>{" "}
+				on your phone number
+			</p>
+			<form action={generateOtp} className="flex flex-col gap-6 w-full">
+				<Input
+					name="phone"
+					placeholder="Enter your phone number"
+					type="number"
+					label="Phone Number"
+					autoComplete="tel"
+				/>
+				<SubmitButton
+					variant="fill"
+					color="green"
+					className="!rounded-xl"
+					type="submit"
+				>
+					Sent OTP
+				</SubmitButton>
+
+				<Button>Resent otp</Button>
+
+				<Link scroll={false} href={"/login/verify"}>
+					enter otp
+				</Link>
+			</form>
+		</div>
+	);
 };
 
 export default LoginForm;

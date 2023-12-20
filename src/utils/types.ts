@@ -69,6 +69,10 @@ export type ProductCardType = {
     productDescription: string;
     rating: number;
     reviewCount: number;
+    weight: string;
+    category: string;
+    ingredients: string;
+    usage: string;
   };
 };
 export type ServiceCardType = {
