@@ -37,7 +37,7 @@ const SidePanel = ({ children, side = "left" }: Props) => {
 								"max-h-max": ["top", "bottom"].includes(side),
 							})}
 						>
-							<div className="flex flex-col bg-white h-screen shadow-xl overflow-y-auto px-4 py-6 sm:px-6">
+							<div className="flex flex-col bg-white h-screen shadow-xl overflow-y-auto p-4">
 								<div className="flex items-start justify-between">
 									<Dialog.Title className="text-lg font-medium text-gray-900">
 										Shopping cart

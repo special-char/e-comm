@@ -9,12 +9,14 @@ const CartTotals = (props: Props) => {
       <p className="font-semibold text-heading6">Cart Totals</p>
       <div className="flex flex-col py-2 text-gray divide-y divide-gray/30">
         <div className="flex justify-between py-2">
-          <p className="text-caption1 font-semibold uppercase">Subtotal</p>
+          <p className="text-caption1 font-semibold uppercase">Sub Total</p>
           <p className="text-caption1">45646</p>
         </div>
 
         <div className="flex justify-between py-2">
-          <p className="text-caption1 font-semibold uppercase">Shipping</p>
+          <p className="text-caption1 font-semibold uppercase">
+            Shipping Charges
+          </p>
           <p className="text-caption1">10</p>
         </div>
 

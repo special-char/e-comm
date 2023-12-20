@@ -3,6 +3,7 @@ import Button from "../common/Button";
 import { ProductCardType } from "@/utils/types";
 import Image from "next/image";
 import CounterBtn from "../products/CounterBtn";
+import Price from "../Price";
 
 const CartItem = ({ data }: ProductCardType) => {
   return (
@@ -17,20 +18,11 @@ const CartItem = ({ data }: ProductCardType) => {
       </div>
 
       <div className="flex flex-col gap-2 justify-between">
-        <div className="flex gap-x-4 justify-between flex-wrap">
-          <p className="text-body2 font-medium">{data.productName}</p>
-          <p className="font-semibold text-caption1">{data.productPrice}</p>
+        <div>
+          <p className="text-subtitle2 font-bold">{data.productName}</p>
+          <Price price={data.price} />
         </div>
-        <div className="flex gap-4 justify-between flex-wrap">
-          {/* <p className="text-gray/60 text-caption2">Qty 5</p> */}
-          <CounterBtn />
-          {/* <Button
-            variant="outlined"
-            className="font-medium text-red-500 hover:text-red-600 !border-none !p-0"
-          >
-            Remove
-          </Button> */}
-        </div>
+        <CounterBtn />
       </div>
     </li>
   );

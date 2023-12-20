@@ -10,7 +10,7 @@
 				@apply text-white  font-bold;
 			}
 			& > .description {
-				@apply text-white text-opacity-30;
+				@apply text-white text-opacity-30 text-caption1;
 			}
 		}
 		& > .bannerButtons {

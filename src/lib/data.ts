@@ -37,24 +37,25 @@ export const navbarData = {
 //-------------------------------HOME PAGE ------------------------------//
 export const homePageBanner = {
 	backgroundBannerImage: "/images/bannerImage.png",
-	heading: "Less is more when it comes to skin care.",
-	description: "Beautifull you",
+	heading: "The epitome of beautiful skin.",
+	description:
+		"Discover the beauty within with Beayou , be Beautiful You.It means you can wear the less makeup and let skin SHINE through.",
 	actionBtn1: "Shop Now",
 	actionBtn2: "Explore",
 };
 
 export const topProduct = {
-	heading: "Crafted with excellent material.",
-	description:
-		"Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.",
+	heading: "It's a SKIN-VESTMENT",
+	description: `At 'Bea You,' our mission transcends conventional beauty standards.Our goal is to foster a community where every skin journey is celebrated, recognizing that beauty is diverse and personal.
+    'Bea You' is not just a skincare brand; it's a commitment to authenticity, self-love, and the belief that everyone deserves to feel confident in their unique skin.`,
 	actionBtn: "Explore",
 };
 
 export const whyChooseUs = {
 	image: "/images/whyChooseUsImg.jpg",
-	heading: "Why Choose Us",
-	description:
-		"Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.",
+	heading: "We take skincare seriously",
+	description: `As said "Glowing skin is always in".So we believe in empowering individuals to embrace their authentic selves through skincare that goes beyond the surface.
+    We strive to create products that cater to individual needs, embracing the beauty of differences. Join us in the journey to discover, enhance, and truly 'Bea You'.`,
 	services: [
 		{
 			id: 1,
@@ -66,7 +67,7 @@ export const whyChooseUs = {
 		{
 			id: 2,
 			icon: "/icons/bag.svg",
-			heading: "Easy to Shop",
+			heading: "Ready, Set, Glow (Easy to shop)",
 			serviceDescription:
 				"Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.",
 		},
@@ -299,10 +300,37 @@ export const products = [
 				url: "/images/product1.png",
 			},
 		],
-		productName: "Nordic Chair",
-		productPrice: "$50.00",
-		productDescription:
-			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
+		productName: "Cleanser",
+		price: {
+			productDiscountPrice: "₹399/-",
+			productOriginalPrice: "₹499/-",
+		},
+		weight: "125 Ml",
+		category: "Skin-Face",
+		ingredients: `Cucumber Extract, Lemon Extract, Rosemary Extract, Glycolic Acid, Lactic Acid, Sodium Hyaluronate, Niacinamide, L- Argenine, Licorice Extract, Alpha Arbutin, Berberis Extract, Propylene Glycol.
+    Pluethylene Glycol 400, Glycerin, Edta, Fragrance, Triethanol Amine, Phenoxyethanol, Ethylhexylglycerin & Aqua 
+    DIRECTION FOR USE: Put a pea size amount of Fair-Wish Under Eye Gel on the Tip of your ring finger & apply small dots under the eye & message gently. Be Careful & make sure you are not getting close to your eyelash line.`,
+		usage: `Directions: Apply cleanser and gently massage into skin barrier.
+    Wash with normal water.`,
+		productDescription: `Feel Refresh | BE Nourished| Be Beautiful | Bea You
+
+    Get cleansed, soft & hydrated skin in just 40 seconds* with Bea You Face Cleanser. It gently yet effectively cleanses skin to remove dirt, oil and other impurities without making skin dry.  Adding it in your routine will minimize the effects of environmental stressors on the skin, leaving you with cleanand soft skin,.
+    
+    Defend against 5 sign of Skin sensitivity: Weakened free,Dryness,Roughness,Irritaton,roughness,Tightness
+    
+    Paraben Sulphate free
+    Cruelty free
+    Make in india
+    
+    Key point: 
+    Hydrating Glycerin, Vitamin B3 & B5, Non foaming formula
+    vitamin b3: prevent water loss and retain skin's moisture content. It's also known to increase keratin.  
+    Vitamin b5 : it helps to boost the production of glutathione in our skin. it has anti-inflammatory properties that soothe irritated and dry skin
+    
+    * Image and actual product may very
+    
+    STORAGE: Store in a cool place. Keep away from direct sun light.
+    WARNING: Do not refrigerate. Replace the cap tightly after use.`,
 		reviewCount: 55,
 		rating: 3,
 	},
@@ -327,10 +355,39 @@ export const products = [
 				url: "/images/product2.png",
 			},
 		],
-		productName: "Kurzo Aero Chair",
-		productPrice: "$78.00",
-		productDescription:
-			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
+		productName: "Gluta Radiance",
+		price: {
+			productDiscountPrice: "₹399/-",
+			productOriginalPrice: "₹499/-",
+		},
+		weight: "125 Ml",
+		category: "Skin-Face",
+		ingredients: `Cucumber Extract, Lemon Extract, Rosemary Extract, Glycolic Acid, Lactic Acid, Sodium Hyaluronate, Niacinamide, L- Argenine, Licorice Extract, Alpha Arbutin, Berberis Extract, Propylene Glycol.
+    Pluethylene Glycol 400, Glycerin, Edta, Fragrance, Triethanol Amine, Phenoxyethanol, Ethylhexylglycerin & Aqua 
+    DIRECTION FOR USE: Put a pea size amount of Fair-Wish Under Eye Gel on the Tip of your ring finger & apply small dots under the eye & message gently. Be Careful & make sure you are not getting close to your eyelash line.
+    `,
+		usage: `Directions: Apply cleanser and gently massage into skin barrier.
+    Wash with normal water.`,
+		productDescription: `Power Glutathione | Reduce hyperpigmentation | Pore minimizer | Deep Hydration |Be Beautiful | Bea You
+
+      Unleash your inner radiance with Bea You Gluta Radiance moisturiser.The powerhouse of hydration with vitamin A,C, E. IThis gives your skin a replenished and dewy appearance, It also leaves your skin feeling soft and supple throughout the day.
+      
+      Defend against 5 sign of Skin sensitivity: Weakened free,Dryness,Roughness,Irritaton,roughness,Tightness
+      
+      Paraben Sulphate free
+      Cruelty free
+      Make in india
+      
+      Key point: 
+      Glutathione 2%, Alpha Arbutin 0.2%, Niacinamide 0.2%, Hyaluronic Acid 0.2%, Kojic Acid 1%, with Vitamin A,C,E   
+      vitamin b3: prevent water loss and retain skin's moisture content. It's also known to increase keratin.  
+      Vitamin b5 : it helps to boost the production of glutathione in our skin. it has anti-inflammatory properties that soothe irritated and dry skin
+      
+      * Image and actual product may very
+      
+      STORAGE: Store in a cool place. Keep away from direct sun light.
+      WARNING: Do not refrigerate. Replace the cap tightly after use.
+      `,
 		reviewCount: 55,
 		rating: 3,
 	},
@@ -356,7 +413,14 @@ export const products = [
 			},
 		],
 		productName: "Ergonomic Chair",
-		productPrice: "$43.00",
+		price: {
+			productDiscountPrice: "₹599/-",
+			productOriginalPrice: "₹799/-",
+		},
+		weight: "125 Ml",
+		category: "Skin-Face",
+		ingredients: "",
+		usage: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
@@ -384,7 +448,14 @@ export const products = [
 			},
 		],
 		productName: "Ergonomic Chair",
-		productPrice: "$43.00",
+		price: {
+			productDiscountPrice: "₹899/-",
+			productOriginalPrice: "₹1099/-",
+		},
+		weight: "125 Ml",
+		category: "Skin-Face",
+		ingredients: "",
+		usage: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
@@ -412,7 +483,14 @@ export const products = [
 			},
 		],
 		productName: "Ergonomic Chair",
-		productPrice: "$43.00",
+		price: {
+			productDiscountPrice: "₹399/-",
+			productOriginalPrice: "₹699/-",
+		},
+		weight: "125 Ml",
+		category: "Skin-Face",
+		ingredients: "",
+		usage: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
@@ -440,7 +518,14 @@ export const products = [
 			},
 		],
 		productName: "Ergonomic Chair",
-		productPrice: "$43.00",
+		price: {
+			productDiscountPrice: "₹199/-",
+			productOriginalPrice: "₹399/-",
+		},
+		weight: "125 Ml",
+		category: "Skin-Face",
+		ingredients: "",
+		usage: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
@@ -468,7 +553,14 @@ export const products = [
 			},
 		],
 		productName: "Ergonomic Chair",
-		productPrice: "$43.00",
+		price: {
+			productDiscountPrice: "₹99/-",
+			productOriginalPrice: "₹199/-",
+		},
+		weight: "125 Ml",
+		category: "Skin-Face",
+		ingredients: "",
+		usage: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
@@ -496,7 +588,14 @@ export const products = [
 			},
 		],
 		productName: "Ergonomic Chair",
-		productPrice: "$43.00",
+		price: {
+			productDiscountPrice: "₹699/-",
+			productOriginalPrice: "₹999/-",
+		},
+		weight: "125 Ml",
+		category: "Skin-Face",
+		ingredients: "",
+		usage: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
@@ -524,7 +623,14 @@ export const products = [
 			},
 		],
 		productName: "Ergonomic Chair",
-		productPrice: "$43.00",
+		price: {
+			productDiscountPrice: "₹699/-",
+			productOriginalPrice: "₹899/-",
+		},
+		weight: "125 Ml",
+		category: "Skin-Face",
+		ingredients: "",
+		usage: "",
 		productDescription:
 			"Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
 		reviewCount: 55,
@@ -708,37 +814,37 @@ export const cartPage = {
 			id: 1,
 			productImage: "/images/product1.png",
 			productName: "Chair",
-			productPrice: "$50.00",
+			productPrice: "₹50.00",
 		},
 		{
 			id: 2,
 			productImage: "/images/product2.png",
 			productName: "Chair",
-			productPrice: "$50.00",
+			productPrice: "₹50.00",
 		},
 		{
 			id: 3,
 			productImage: "/images/product3.png",
 			productName: "Chair",
-			productPrice: "$50.00",
+			productPrice: "₹50.00",
 		},
 		{
 			id: 4,
 			productImage: "/images/product1.png",
 			productName: "Chair",
-			productPrice: "$50.00",
+			productPrice: "₹50.00",
 		},
 		{
 			id: 5,
 			productImage: "/images/product2.png",
 			productName: "Chair",
-			productPrice: "$50.00",
+			productPrice: "₹50.00",
 		},
 		{
 			id: 6,
 			productImage: "/images/product3.png",
 			productName: "Chair",
-			productPrice: "$50.00",
+			productPrice: "₹50.00",
 		},
 	],
 	cartActionBtn1: "Update Cart",
