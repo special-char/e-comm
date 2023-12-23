@@ -1,8 +1,8 @@
 .mobileNav {
-  @apply md:hidden flex items-center justify-between h-20 w-full;
+  @apply md:hidden flex items-center h-20 w-full gap-3;
 
   & > .logoWrapper {
-    @apply flex items-center;
+    @apply flex flex-1 items-center;
     & .heading1 {
       @apply text-white text-subtitle2 m-0;
     }

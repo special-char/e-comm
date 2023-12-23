@@ -20,15 +20,22 @@ function MobileNav({ data }: MobileNavType) {
   return (
     <>
       <div className={style.mobileNav}>
-        <Link href={"/"} className={style.logoWrapper}>
-          <h1 className={style.heading1}>{data.heading1}</h1>
-          <h1 className={style.heading2}>{data.heading2}</h1>
-        </Link>
-
         <Button variant="icon" title="menu button" onClick={open}>
           <span className="sr-only">open menu button</span>
           <HamburgerIcon className="h-6" />
         </Button>
+        <Link href={"/"} className={style.logoWrapper}>
+          <h1 className={style.heading1}>{data.heading1}</h1>
+          <h1 className={style.heading2}>{data.heading2}</h1>
+        </Link>
+        <Button variant="icon">
+          <span className="sr-only">user account button</span>
+          <UserIcon className="h-5" />
+        </Button>
+        <Link href={"/cart"} onClick={close} scroll={false}>
+          <span className="sr-only">go to cart button</span>
+          <CartIcon className="h-5" />
+        </Link>
       </div>
 
       <Transition.Root show={!!state} as={Fragment}>
@@ -82,16 +89,6 @@ function MobileNav({ data }: MobileNavType) {
                           </Link>
                         );
                       })}
-                  </div>
-                  <div className={style.icons}>
-                    <Button variant="icon">
-                      <span className="sr-only">user account button</span>
-                      <UserIcon className="h-5" />
-                    </Button>
-                    <Link href={"/cart"} onClick={close}>
-                      <span className="sr-only">go to cart button</span>
-                      <CartIcon className="h-5" />
-                    </Link>
                   </div>
                 </div>
               </Dialog.Panel>
