@@ -2,12 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Nunito:wght@200;300;400;500;600;700;800&family=Spicy+Rice&display=swap");
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  body {
+    font-family: "Acme", sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.025rem;
+    /* background-color: #D18F62; */
+  }
 }
 
+::selection {
+  background-color: #E7D9FF;
+  color: #FD1E39;
+}
+
+header,
+footer,
+section {
+  @apply px-container;
+}
+
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -25,4 +42,4 @@
 
 body {
   font-family: "roboto-reg", sans-serif;
-}
+} */
